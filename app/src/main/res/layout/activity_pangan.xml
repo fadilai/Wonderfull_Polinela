@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.PanganActivity">
+
+
+    <LinearLayout
+
+        android:id="@+id/svScroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/llBanner"
+            layout="@layout/layout_banner_pangan" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/svScroll"
+        android:text="Visi"
+        android:id="@+id/t_visi"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t_visi"
+        android:text="Penghasil tenaga ahli profesional terampil dan inovatif dalam menunjang peningkatan produksi pangan, pembenihan tanaman dan agribisnis hortikultura  melalui pengajaran yang berkualitas, penelitian terapan serta pengabdian masyarakat."
+        android:id="@+id/tv_nm_visi"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textSize="12sp"
+        android:textColor="@color/black">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_nm_visi"
+        android:text="Misi"
+        android:id="@+id/t_misi"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t_misi"
+        android:text="@string/misipangan"
+        android:id="@+id/tv_nm_misi"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textStyle="normal"
+        android:justificationMode="inter_word"
+        android:textSize="12sp"
+        android:textColor="@color/black">
+    </TextView>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="580dp"
+        android:layout_below="@+id/tv_nm_misi"
+        android:layout_marginTop="35dp" />
+</RelativeLayout>

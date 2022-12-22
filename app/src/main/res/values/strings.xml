@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MyPolinela</string>
+
+    <string name="misi1">1.	Menyelenggarakan pendidikan berbasis kompetensi dan memberdayakan kegiatan penelitian dan pengabdian yang mendukung pengembangan industri/ukm.
+2.	Menyelenggarakan pendidikan tinggi vokasi yang berorientasi pada akhlak mulia, terampil, disiplin, mandiri, dan kompetitif.
+3.	Melaksanakan kajian keilmuan dan penelitian terapan untuk menopang pendidikan dan pengajaran di bidang agribisnis, akuntansi, perpajakan, informatika dan pariwisata.
+4.	Melaksanakan pengabdian kepada masyarakat melalui transfer ilmu pengetahuan dan teknologi terapan di bidang agribisnis, akuntansi, perpajakan, informatika dan pariwisata.
+5.	Menguatkan budaya akademik, organisasi, dan kerja yang berkarakter dan beretika.
+6.	Menjalin kerjasama secara berkelanjutan dengan pihak yang berhubungan dengan agribisnis, akuntansi, perpajakan, informatika dan pariwisata.</string>
+
+    <string name="misikebun">1.	Menyelenggarakan pendidikan yang berorientasi pada akhlak mulia disiplin, terampil dan mandiri.
+2.	Melaksanakan kegiatan keilmuan dan penelitian terapan sebagai penunjang pendidikan dan pengajaran dibidang perkebunan.
+3.	Melaksanakan kegiatan pengabdian kepada masyarakat melalui kolaborasi dengan masyarakat dalam membagikan ilmu terapan berbasis perkebunan.
+4.	Menguatkan budaya organisasi yang berkarakter, beretika dan professional.
+5.	Melaksanakan kerjasama secara berkesinambungan dengan mitra dunia usaha dan industri khususnya dibidang perkebunan</string>
+
+    <string name="misipangan">1.	Komitmen pada pendidikan dan pengajaran berkualitas untuk menghasilkan lulusan terbaik yang dapat mendukung upaya peningkatan produksi pangan dan benih nasional serta mampu mengembangkan bisnis hortikultura.
+2.	Mengimplementasikan penelitian terapan dan pengabdian kepada masyarakat dalam bidang teknologi produksi tanaman pangan, benih serta produksi tanaman hortikultura dalam mendukung pencapaian ketahanan pangan nasional.</string>
+
+
+    <string name="misitani">1.	Menyelenggarakan Pendidikan Tinggi Vokasi yang berorientasi pada ahklak mulia, terampil, disiplin, mandiri, dan kompetitif.
+2.	Melaksanakan penelitian terapan untuk menopang pendidikan dan transfer IPTEKS guna meningkatkan kualitas kehidupan masyarakat.
+3.	Meningkatkan pengabdian kepada masyarakat atas dasar tanggung jawab sosial demi kepentingan masyarakat.
+4.	Menguatkan budaya akademik, organisasi kerja yang berkarakter dan beretika.
+5.	Mengembangkan organisasi yang sehat dengan manajemen yang  transparan.</string>
+
+    <string name="misiternak">•	Menyelenggarakan pendidikan, penelitian terapan dan pengabdian kepada masyarakat dalam men-dayagunakan keunggulan sumberdaya peternakan wilayah melalui penerapan teknologi tepat guna.</string>
+</resources>

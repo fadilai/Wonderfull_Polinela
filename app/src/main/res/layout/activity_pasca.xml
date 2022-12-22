@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".activities.PascaActivity">
+
+    <LinearLayout
+        android:id="@+id/svScroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/Rldesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/iv_item_photo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/pasca"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:id="@+id/tv_nm_prodi"
+                android:layout_below="@+id/iv_item_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Program Pascasarjana Magister Terapan Ketahanan Pangan"
+                android:gravity="center_vertical"
+                android:drawablePadding="4dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:background="#4D000000"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_gravity="bottom" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:id="@+id/tvDescription"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:text="Tentang"
+            android:layout_below="@+id/tvTitle"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/tv_nm_tentang"
+            android:layout_below="@+id/tvDescription"
+            android:justificationMode="inter_word"
+            android:text="Program studi Magister Terapan Ketahanan Pangan (MTKP) didirikan berdasarkan pada beberapa kondisi.  Pertama, kondisi eksisting dimana kebutuhan pembangunan pangan nasional untuk kelangsungan hidup bangsa sangat mendesak. Kedua, kearifan Lokal potensi pangan di Provinsi Lampung, Lampung dikenal sebagai Bumi Agribisnis dan Agroindustri, Kondisi agroekosistem serta ekonomi-sosial-budaya Lampung menunjang pengembangan agribisnis; Walaupun perlu revitalisasi, infrastruktur pertanian sudah memadai; Lampung berkontribusi besar pada produksi komoditas ubikayu, padi, jagung, kopi, ayam, sapi potong, udang, dan aneka produk pangan lainnya; Peluang meningkatkan kontribusi Lampung terhadap ketahanan pangan nasional terbuka luas.  Kondisi internal Polinela telah memiliki kesiapan SDM yang memadai saat ini memiliki dosen tetap bergelar Doktor berjumlah 23 orang dari bidang ilmu yang relevan dengan ketahanan pangan bidang Pertanian (Produksi Pertanian, Agroindustri , Ilmu Gizi, Ilmu Pangan, Pangan Fungsional, ICT, dan Sosial Ekonomi Pertanian serta Rencana pengembangan Polinela yang tertuang dalam Renstra.  Kondisi tersebut mendorong pimpinan segera mengambil langkah membuka program studi S2 terapan ketahanan pangan dan siap menerima mahasiswa pada tahun akademik 2020/2021 dengan diterbitkannya Surat Keputusan Menteri Pendidikan dan Kebudayaan Nomor 145/M/2020 tanggal 31 Januari 2020, dimana dalam keputusan disebutkan bahwa program studi dimaksud dinyatakan memenuhi persyaratan minimum akreditasi."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profil Prodi"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"/>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_marginRight="16dp"
+                    android:text="Visi"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_weight="1"
+                    android:id="@+id/tv_nm_visi"
+                    android:justificationMode="inter_word"
+                    android:text="•	Menjadi pusat pengembangan analisis kebijakan dan teknologi terapan yang bermutu, inovatif, dan unggul bidang ketahanan pangan di tingkat Nasional."
+                    android:layout_below="@+id/iv_item_photo"
+                    android:textColor="@android:color/black"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_marginRight="16dp"
+                    android:text="Misi"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_weight="1"
+                    android:justificationMode="inter_word"
+                    android:text="1.	Mengembangkan institusi Program Studi MTKP Polinela menjadi prodi magister dengan tata kelola baik dalam menyelenggarakan pendidikan vokasi bidang Magister Terapan Ketahanan Pangan dan menghasilkan lulusan yang berorientasi pada ahklak mulia, terampil, disiplin, mandiri, dan kompetitif.
+2.	Mengembangkan penelitian terapan dalam 4 pilar ketahanan pangan (produksi, distribusi, difersivikasi, dan keamanan pangan), menghasilkan paket teknologi tepat guna yang dipublikasikan serta berkontribusi relevan dalam pengembangan ipteks bagi pembangunan nasional
+
+3.	Melaksanakan pengabdian kepada masyarakat dengan ipteks terapan bidang Ketahanan Pangan untuk meningkatkan kualitas SDM dan lulusan.
+
+4.	Mewujudkan budaya akademik, organisasi, dan kerja yang berkarakter serta beretika.
+
+5.	Menjalin kerjasama secara berkelanjutan dengan pihak terkait dibidang Ketahanan Pangan untuk meningkatkan dan mengembangkan kerja sama dengan mitra eksternal di tingkat daerah dan nasional."
+                    android:id="@+id/tv_nm_misi"
+                    android:textColor="@android:color/black"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_marginRight="16dp"
+                    android:text="Tujuan"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_weight="1"
+                    android:id="@+id/tv_nm_tujuan"
+                    android:textColor="@android:color/black"/>
+            </TableRow>
+
+        </TableLayout>
+
+
+    </LinearLayout>
+</ScrollView>
